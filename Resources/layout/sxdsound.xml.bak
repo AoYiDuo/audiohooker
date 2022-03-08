@@ -1,0 +1,20 @@
+﻿<?xml version="1.0"?>
+<uitree>
+  <KFrameWindow objectName="MyWindow" size="450,250" windowStyle="MainWindow">
+  	<KSpacer layout="VBox" margins="15,15,15,15">
+	    <KSpacer layout="HBox" fixHeight="35">
+	      <KPushButton objectName="btnMenu" fixWidth="80" text="menu"/>
+	      <KSpacer fixWidth="5"/>
+	      <KPushButton objectName="btnRecord" fixWidth="100" text="record"/>
+	      <KSpacer fixWidth="5"/>
+	      <KPushButton objectName="btnStop" fixWidth="100" text="stop"/>
+	      <KSpacer fixWidth="5"/>
+				<KPushButton objectName="btnPlay" fixWidth="100" text="play"/>
+	      <KSpace/>
+	    </KSpacer>
+	    <KLabel objectName="frameCount" fixHeight="30" text="0" fontSize="25"/>
+	    <KSpacer/>
+	    <KLabel text="有偿索取代码，非诚勿扰：QQ:442559691" fixHeight="30" text="0"/>
+    </KSpacer>
+  </KFrameWindow>
+</uitree>
